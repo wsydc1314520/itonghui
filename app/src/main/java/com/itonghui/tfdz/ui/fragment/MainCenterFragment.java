@@ -59,6 +59,7 @@ public class MainCenterFragment extends Fragment {
     private Button mEncodeWithLog;
     @ViewInject(R.id.contentIvWithLogo)
     private ImageView mContentWithLog;
+    private int haha = 1;
 
     public static Fragment getInstance() {
         return new MainCenterFragment();
