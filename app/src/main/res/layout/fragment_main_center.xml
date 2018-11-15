@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/go_login"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="登录"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#f0f0f0"
+        />
+
+    <TextView
+        android:id="@+id/go_recycle"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="recycle"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#f0f0f0"
+        />
+
+    <TextView
+        android:id="@+id/go_scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="scroll"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#f0f0f0"
+        />
+    <TextView
+        android:id="@+id/go_recycle_two"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="recycle_two"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#f0f0f0"
+        />
+
+    <TextView
+        android:id="@+id/qr_code"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="二维码扫描"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#f0f0f0"
+        />
+
+    <Button
+        android:id="@+id/encodeBtnWithLogo"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="生成带logo的二维码" />
+
+
+    <ImageView
+        android:id="@+id/contentIvWithLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        />
+
+</LinearLayout>

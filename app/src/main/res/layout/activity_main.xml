@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.itonghui.tfdz.view.NoSlideViewPage
+        android:id="@+id/main_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </com.itonghui.tfdz.view.NoSlideViewPage>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/c_ddd"/>
+
+    <RadioGroup
+        android:id="@+id/main_tab_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/main_tab_one"
+            style="@style/MainTab"
+            android:checked="true"
+            android:drawableTop="@drawable/selector_main_home"
+            android:text="@string/tab_one"/>
+
+        <RadioButton
+            android:id="@+id/main_tab_two"
+            style="@style/MainTab"
+            android:drawableTop="@drawable/selector_main_play"
+            android:text="@string/tab_two"/>
+
+        <RadioButton
+            android:id="@+id/main_tab_three"
+            style="@style/MainTab"
+            android:drawableTop="@drawable/selector_main_find"
+            android:text="@string/tab_three"/>
+
+        <RadioButton
+            android:id="@+id/main_tab_four"
+            style="@style/MainTab"
+            android:drawableTop="@drawable/selector_main_person"
+            android:text="@string/tab_four"/>
+    </RadioGroup>
+</LinearLayout>

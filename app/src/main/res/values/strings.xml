@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">天府大宗</string>
+
+    <string name="guide_star">开始体验</string>
+    <string name="tab_one">首页</string>
+    <string name="tab_two">分类</string>
+    <string name="tab_three">购物车</string>
+    <string name="tab_four">个人中心</string>
+
+
+    <!-- LoginActivity 登录 -->
+    <string name="lg_login">登录</string>
+    <string name="lg_account">账号</string>
+    <string name="lg_password">密码</string>
+    <string name="lg_identify_code">验证码</string>
+    <string name="lg_account_hint">请输入手机号/用户名</string>
+    <string name="lg_password_hint">请输入密码</string>
+    <string name="lg_identify_code_hint">请输入验证码</string>
+    <string name="lg_save_password">记住密码</string>
+    <string name="lg_forget_password">忘记密码？</string>
+    <string name="lg_register">没有账号，立即注册>></string>
+
+    <string name="download_success">下载成功</string>
+    <string name="file_does_not_exist">文件不存在</string>
+    <string name="back_abnormal_results">数据返回异常</string>
+
+</resources>
